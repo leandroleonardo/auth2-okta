@@ -9,7 +9,6 @@ const oktaJwtVerifier = new OktaJwtVerifier({
   issuer: ISSUER,
 })
 
-
 app.use( async (req, res, next) => {
   
   try {
